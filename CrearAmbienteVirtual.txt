@@ -1,0 +1,8 @@
+cd a carpeta de proyecto
+python3 -m venv env *Crear ambiente*
+source env/bin/activate *Activar ambiente*
+deactivate *Desactivar ambiente*
+which python3 *Verificar desde donde se ejecuta el py*
+pip3 freeze *Verificar los paquetes instalados en el proyecto*
+pip3 install matplotlib==3.5.0 *Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo*
+pip3 freeze *Verificar los paquetes instalados en el proyecto*
