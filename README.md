@@ -11,8 +11,19 @@ python3 main.py
 ```sh
 git clone
 cd app
+python3 -m venv env *Crear ambiente*
 source env/bin/activate
 pip3 install -r requiremetns.txt
 python3 main.py
 ```
 
+# web-server project
+
+```sh
+git clone
+cd web-server
+python3 -m venv env *Crear ambiente*
+source env/bin/activate
+pip3 install -r requiremetns.txt
+uvicorn main:app --reload *Iniciar el servidor en el archivo main*
+```

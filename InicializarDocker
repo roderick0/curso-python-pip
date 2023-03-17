@@ -1,0 +1,10 @@
+Instalar docker para WSL
+Verificar que tengas la version WSL 2
+Crear los archivos Dockerfile y docker-compose.yml *Instalar dependencias*
+Inicializar con:
+    docker-compose build
+    docker-compose up -d
+    docker-compose ps
+    docker-compose exec "app-csv" bash *entramos al contenedor de docker*
+    exit *Salir del contenedor de docker*
+    docker-compose down
